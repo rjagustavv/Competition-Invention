@@ -60,6 +60,9 @@ nav{
     position: relative;
     position: -webkit-sticky;
     top: 0;
+    position: sticky;
+    background: linear-gradient(to right,#ffedd1, #ffffff);
+    z-index: 2;
 }
 
 nav ul{
@@ -79,25 +82,13 @@ nav ul li a{
     padding: 0px 16px 0px 16px;
     text-decoration: none;
     position: relative; /* Untuk posisi pseudo-elemen */
-    color: #ce9040;
-    transition: color 0.5s;
+    color: rgba(194, 132, 0, 0.47);  /* Default link color */
+    transition: 0.5s; 
 }
-nav ul li a::after{
-    content: "";
-    display: block;
-    height: 3px; /* Ketebalan garis bawah */
-    background: #ce9040; /* Warna garis bawah */
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    top: 25px;
-    width: 0; /* Lebar garis bawah awalnya 0 */
-    transition: width 0.5s; /* Animasi lebar garis bawah */
-}
-nav ul li a:hover:after{
-    width: 100%; /* Lebar garis bawah saat hover */
-    background: #7a5e38; /* Warna garis bawah saat hover */
-    transition: 0.5s;
+nav ul li a:hover{
+    font-weight: bold;
+    color: #d19d43; /* Change color to white on hover */
+    transition: 0.5s;   
 }
 section {
     margin: auto;
@@ -113,7 +104,6 @@ section {
 .kolom {
     /* height: 100vh; */
     display: flex;
-    z-index: -1;
     flex-direction: column;
     margin-left: 5%;
 }
@@ -231,5 +221,120 @@ h1{
         opacity: 0;
     }
 }
+
+.wayang {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    padding-bottom: 30px;
+
+    transition: 0.5s;
+}
+    .wayang:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.art {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+    .art:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.that {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    padding-bottom: 30px;
+
+    transition: 0.5s;
+}
+    .that:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.bring {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .bring:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.stories {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .stories:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.a {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .a:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+.w {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .w:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+.t {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .t:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+.l {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #8C6C42;
+    transition: 0.5s;
+}
+    .l:hover {
+    font-size: 66.5px;
+    transition: 0.5s;
+}
+
+
+
+
 
 
